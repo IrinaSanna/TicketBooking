@@ -1,0 +1,20 @@
+{
+  "name": "ticketbooking",
+  "version": "1.0.0",
+  "description": "Ticket booking (puppeteer)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "cucumber": "cucumber-js",
+    "cucumberonly": "cucumber-js --tags=@only"
+  },
+  "author": "Irina Denisova",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^10.1.0",
+    "puppeteer": "^23.1.1",
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
